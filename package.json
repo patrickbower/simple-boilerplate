@@ -3,9 +3,7 @@
   "version": "1.0.0",
   "description": "Retail demonstration of device / service features",
   "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
+  "scripts": {},
   "repository": {
     "type": "git",
     "url": "git+https://patrickbower-dd@github.com/digital-detox/vf-retail-demo.git"
