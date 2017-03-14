@@ -30,8 +30,7 @@ module.exports = function(grunt) {
     includes: {
       files: {
         src: [
-          './src/html/index.html',
-          './src/html/page-1.html'
+          './src/html/*.html'
         ],
         dest: './build',
         flatten: true,
