@@ -1,0 +1,19 @@
+{
+  "name": "vf-retail-demo",
+  "version": "1.0.0",
+  "description": "Retail demonstration of device / service features",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://patrickbower-dd@github.com/digital-detox/vf-retail-demo.git"
+  },
+  "author": "Patrick Bower",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/digital-detox/vf-retail-demo/issues"
+  },
+  "homepage": "https://github.com/digital-detox/vf-retail-demo#readme"
+}
