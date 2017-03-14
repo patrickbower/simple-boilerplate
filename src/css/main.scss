@@ -1,2 +1,9 @@
+// libs
+@import "../../node_modules/bootstrap-sass/assets/stylesheets/bootstrap/_variables";
+@import "../../node_modules/bootstrap-sass/assets/stylesheets/bootstrap/_mixins";
+@import "../../node_modules/bootstrap-sass/assets/stylesheets/bootstrap/_normalize";
+@import "../../node_modules/bootstrap-sass/assets/stylesheets/bootstrap/_grid";
+
+// mods
 @import './hello';
 @import './world';
