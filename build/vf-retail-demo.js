@@ -1,4 +1,4 @@
-/*! vf-retail-demo 2017-03-14 */
+/*! vf-retail-demo 2017-03-15 */
 
 (function e(t,n,r){function s(o,u){if(!n[o]){if(!t[o]){var a=typeof require=="function"&&require;if(!u&&a)return a(o,!0);if(i)return i(o,!0);var f=new Error("Cannot find module '"+o+"'");throw f.code="MODULE_NOT_FOUND",f}var l=n[o]={exports:{}};t[o][0].call(l.exports,function(e){var n=t[o][1][e];return s(n?n:e)},l,l.exports,e,t,n,r)}return n[o].exports}var i=typeof require=="function"&&require;for(var o=0;o<r.length;o++)s(r[o]);return s})({1:[function(require,module,exports){
 /*!
@@ -10259,7 +10259,7 @@ function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { de
 (0, _world2.default)();
 
 (0, _jquery2.default)('document').ready(function () {
-  (0, _jquery2.default)('h1').css('background', 'blue');
+  // stuff here
 });
 
 },{"./hello":2,"./world":4,"jquery":1}],4:[function(require,module,exports){

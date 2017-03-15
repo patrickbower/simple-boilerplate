@@ -1,0 +1,21 @@
+.vf-tile {
+
+  &-row {
+    display: flex;
+    justify-content: center;
+    // align-items: center;
+  }
+
+  background: rgba($colour-white, 0.9);
+  padding: 40px;
+  color: $colour-body;
+  height: 100%;
+
+  &__img {
+    max-height: 220px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 25px;
+  }
+}

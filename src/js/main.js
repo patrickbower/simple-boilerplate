@@ -10,5 +10,5 @@ one();
 two();
 
 $('document').ready(function(){
-  $('h1').css('background', 'blue');
+  // stuff here
 })
