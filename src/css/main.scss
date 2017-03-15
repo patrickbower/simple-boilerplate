@@ -1,9 +1,25 @@
 // libs
+// @import "../../node_modules/bootstrap-sass/assets/stylesheets/_bootstrap";
 @import "../../node_modules/bootstrap-sass/assets/stylesheets/bootstrap/_variables";
 @import "../../node_modules/bootstrap-sass/assets/stylesheets/bootstrap/_mixins";
 @import "../../node_modules/bootstrap-sass/assets/stylesheets/bootstrap/_normalize";
 @import "../../node_modules/bootstrap-sass/assets/stylesheets/bootstrap/_grid";
+@import "../../node_modules/bootstrap-sass/assets/stylesheets/bootstrap/_type";
+@import "../../node_modules/bootstrap-sass/assets/stylesheets/bootstrap/_scaffolding";
+
+
+
+@import "../../node_modules/animate.css/animate";
+
+// global
+@import './colours';
+@import './spacing';
+@import './imgs';
+@import './box-sizing';
+@import './typography';
+@import './page';
+@import './tiles';
 
 // mods
-@import './hello';
-@import './world';
+@import './logo';
+@import './discover';
