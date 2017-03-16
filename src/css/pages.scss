@@ -6,7 +6,39 @@
   .link {
     position: absolute;
     display: block;
-    // background: rgba(127,62,72, 0.5);
+    // background: rgba(127,62,72, .9);
+  }
+
+  .video {
+    position: absolute;
+    display: block;
+    z-index: 1;
+    // background: rgba(127,62,72, .9);
+
+    &__play-btn {
+      display: block;
+      width: 184px;
+      height: 46px;
+      background: url(imgs/play-btn.jpg) no-repeat;
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      z-index: 999;
+    }
+
+    &__replay-btn {
+      display: block;
+      position: absolute;
+      z-index: 999;
+      top: 0;
+      right: 0;
+      bottom: 0;
+      left: 0;
+      background:
+        url(imgs/replay-btn.jpg) no-repeat center center,
+        rgba(black,0.5);
+    }
   }
 
   &--1 {
@@ -71,6 +103,16 @@
         left: 172px;
         width: 124px;
         height: 36px;
+      }
+    }
+
+    .video {
+
+      &--dummy {
+        top: 119px;
+        left: 837px;
+        width: 277px;
+        height: 490px;
       }
     }
   }
