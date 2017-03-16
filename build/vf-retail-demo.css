@@ -187,17 +187,7 @@ th {
     position: absolute;
     display: block;
     z-index: 1; }
-    .vf-screen .video__play-btn {
-      display: block;
-      width: 184px;
-      height: 46px;
-      background: url(imgs/play-btn.jpg) no-repeat;
-      position: absolute;
-      top: 50%;
-      left: 50%;
-      transform: translate(-50%, -50%);
-      z-index: 999; }
-    .vf-screen .video__replay-btn {
+    .vf-screen .video__play-btn, .vf-screen .video__replay-btn {
       display: block;
       position: absolute;
       z-index: 999;
@@ -205,6 +195,8 @@ th {
       right: 0;
       bottom: 0;
       left: 0;
+      background: url(imgs/play-btn.jpg) no-repeat center center, rgba(0, 0, 0, 0.5); }
+    .vf-screen .video__replay-btn {
       background: url(imgs/replay-btn.jpg) no-repeat center center, rgba(0, 0, 0, 0.5); }
   .vf-screen--1 {
     background: url(imgs/screen-1.jpg) no-repeat center center fixed;
