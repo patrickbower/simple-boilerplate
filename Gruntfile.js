@@ -40,6 +40,14 @@ module.exports = function(grunt) {
         }
       }
     },
+    copy: {
+      main: {
+        expand: true,
+        cwd: './src',
+        src: ['imgs/*', 'vids/*'],
+        dest: './build'
+      }
+    },
     watch: {
       scripts: {
         files: ['./src/js/*.js'],
@@ -61,10 +69,10 @@ module.exports = function(grunt) {
         options: {
           spawn: false,
         },
-      },
+      }
     }
   });
 
-  grunt.registerTask('default', ['sass', 'browserify', 'includes']);
+  grunt.registerTask('default', ['sass', 'browserify', 'includes', 'copy']);
 
 };
