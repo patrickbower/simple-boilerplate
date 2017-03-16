@@ -11,7 +11,8 @@ $('document').ready(function(){
     var videoPlayer = videoModule.find('.video__element');
 
     // play video
-    videoPlayBtn.on('click', function() {
+    videoPlayBtn.on('click', function(e) {
+      e.preventDefault();
       videoPlayer.get(0).play();
       videoPlayBtn.hide();
     });
@@ -23,6 +24,7 @@ $('document').ready(function(){
 
     // replay video
     videoReplayBtn.on('click', function() {
+      e.preventDefault();
       videoPlayer.get(0).play();
       videoReplayBtn.hide();
     });
