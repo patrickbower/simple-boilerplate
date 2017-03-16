@@ -1,14 +1,14 @@
 // libs
-import $ from "jquery";
+// import $ from "jquery";
 
 // mods
-import one from './hello';
-import two from './world';
+// import one from './hello';
+// import two from './world';
 
 // tests
-one();
-two();
+// one();
+// two();
 
-$('document').ready(function(){
+// $('document').ready(function(){
   // stuff here
-})
+// })
