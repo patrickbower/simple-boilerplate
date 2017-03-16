@@ -11,20 +11,18 @@ $('document').ready(function(){
     var videoPlayer = videoModule.find('.video__element');
 
     // play video
-    videoPlayBtn.on('click', function(e) {
-      e.preventDefault();
+    videoPlayBtn.on('click', function() {
       videoPlayer.get(0).play();
       videoPlayBtn.hide();
     });
 
-    // whne video has finished playing
+    // when video has finished playing
     videoPlayer.on('ended', function() {
       videoReplayBtn.show();
     });
 
     // replay video
     videoReplayBtn.on('click', function() {
-      e.preventDefault();
       videoPlayer.get(0).play();
       videoReplayBtn.hide();
     });

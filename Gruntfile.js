@@ -44,8 +44,22 @@ module.exports = function(grunt) {
       main: {
         expand: true,
         cwd: './src',
-        src: ['imgs/*', 'vids/*'],
+        src: ['vids/*'],
         dest: './build'
+      }
+    },
+    imagemin:{
+      target: {
+        options: {
+          optimizationLevel: 7,
+          progressive: true
+        },
+        files: [{
+          expand: true,
+          cwd: 'src/',
+          src: ['imgs/*.{png,jpg,jpeg,gif}'],
+          dest: 'build/imgs/'
+        }]
       }
     },
     watch: {
@@ -73,6 +87,14 @@ module.exports = function(grunt) {
     }
   });
 
-  grunt.registerTask('default', ['sass', 'browserify', 'includes', 'copy']);
+  grunt.registerTask('default',
+    [
+      'sass',
+      'browserify',
+      'includes',
+      'copy',
+      'imagemin'
+    ]
+  );
 
 };
