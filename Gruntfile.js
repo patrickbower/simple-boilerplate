@@ -44,7 +44,7 @@ module.exports = function(grunt) {
       main: {
         expand: true,
         cwd: './src',
-        src: ['vids/*'],
+        src: ['vids/*', 'manifest.json'],
         dest: './build'
       }
     },
@@ -84,6 +84,13 @@ module.exports = function(grunt) {
           spawn: false,
         },
       }
+    },
+    uglify: {
+      my_target: {
+        files: {
+          'build/vf-retail-demo.js': 'build/vf-retail-demo.js'
+        }
+      }
     }
   });
 
@@ -93,7 +100,8 @@ module.exports = function(grunt) {
       'browserify',
       'includes',
       'copy',
-      'imagemin'
+      'imagemin',
+      'uglify'
     ]
   );
 
