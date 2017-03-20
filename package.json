@@ -3,7 +3,10 @@
   "version": "1.0.0",
   "description": "Retail demonstration of device / service features",
   "main": "index.js",
-  "scripts": {},
+  "scripts": {
+    "start": "./start.sh",
+    "deploy": "./deploy.sh"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://patrickbower-dd@github.com/patrickbower/simple-boilerplate.git"
