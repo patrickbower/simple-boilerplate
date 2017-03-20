@@ -9,9 +9,10 @@ This is not very opionated but includes a few ideas to get started on small proj
 - Styles and scripts compiled to single files
 - Deploy to GitHub Pages command
 
-### Standards
-- NPM managed
-- Grunt run tasks inclulde:
+### Stack
+- Command line server
+- NPM management
+- Grunt
   - Nested HTML includes
   - SASS for styling
   - ES6 transpiled to 2015 JavaScript
