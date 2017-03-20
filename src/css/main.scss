@@ -1,26 +1,20 @@
 // libs
-// @import "../../node_modules/bootstrap-sass/assets/stylesheets/_bootstrap";
-// @import "../../node_modules/bootstrap-sass/assets/stylesheets/bootstrap/_variables";
-// @import "../../node_modules/bootstrap-sass/assets/stylesheets/bootstrap/_mixins";
+@import "../../node_modules/bootstrap-sass/assets/stylesheets/_bootstrap";
+@import "../../node_modules/bootstrap-sass/assets/stylesheets/bootstrap/_variables";
+@import "../../node_modules/bootstrap-sass/assets/stylesheets/bootstrap/_mixins";
 @import "../../node_modules/bootstrap-sass/assets/stylesheets/bootstrap/_normalize";
-// @import "../../node_modules/bootstrap-sass/assets/stylesheets/bootstrap/_grid";
-// @import "../../node_modules/bootstrap-sass/assets/stylesheets/bootstrap/_type";
-// @import "../../node_modules/bootstrap-sass/assets/stylesheets/bootstrap/_scaffolding";
-
-
+@import "../../node_modules/bootstrap-sass/assets/stylesheets/bootstrap/_grid";
+@import "../../node_modules/bootstrap-sass/assets/stylesheets/bootstrap/_type";
+@import "../../node_modules/bootstrap-sass/assets/stylesheets/bootstrap/_scaffolding";
 
 // @import "../../node_modules/animate.css/animate";
 
 // global
-// @import './colours';
-// @import './spacing';
-// @import './imgs';
-// @import './box-sizing';
-// @import './typography';
-// @import './tiles';
+@import './colours';
+@import './spacing';
+@import './imgs';
+@import './box-sizing';
+@import './typography';
 
 // mods
-// @import './logo';
-// @import './discover';
-
-@import './pages';
+@import './logo';
