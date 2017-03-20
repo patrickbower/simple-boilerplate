@@ -1,5 +1,5 @@
 # Simple Boilerplate
-Bare bones Grunt run boilerplate for rapid prototyping
+Bare bones Grunt run boilerplate project for fast prototyping
 
 ### About
 This is not very opionated but includes a few ideas to get started on small projects:
