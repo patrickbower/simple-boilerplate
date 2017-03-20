@@ -2,7 +2,7 @@
 Bare bones Grunt run boilerplate project for fast prototyping
 
 ### About
-This is not very opionated but includes a few ideas to get started on small projects:
+This is not very opionated but includes a few ideas to get started on projects:
 
 - Source files (found in the `src`), generate **All** Destination files (created in the `build`)
 - Intended modular approuch for HTML, CSS and JS
