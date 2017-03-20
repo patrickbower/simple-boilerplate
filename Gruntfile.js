@@ -44,7 +44,7 @@ module.exports = function(grunt) {
       main: {
         expand: true,
         cwd: './src',
-        src: ['fonts/*', 'favicon.ico'],
+        src: ['fonts', 'favicon.ico'],
         dest: './build'
       }
     },
@@ -58,7 +58,7 @@ module.exports = function(grunt) {
           expand: true,
           cwd: 'src/',
           src: ['imgs/*.{png,jpg,jpeg,gif}'],
-          dest: 'build/imgs/'
+          dest: 'build/'
         }]
       }
     },
