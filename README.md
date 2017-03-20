@@ -21,13 +21,13 @@ This is not very opionated but includes a few ideas to get started on small proj
   - Bootstrap v3 inclueded (commeneted out)
 
 ### Setup
-1. Change project name in the package.json file
-2. Run 'Grunt' command to output inital files
-3. Navigate and run server on *build* folder (on a Mac this can be done through the terminal using `php -S 0.0.0.0:1234`
-4. Back in the root directory run the watch using `grunt watch` 
+1. Update names in the `package.json`
+2. Run `grunt` in root directory to output inital files
+3. Navigate and run server on `build` directory `php -S 0.0.0.0:1234`
+4. Watch root directory `grunt watch` 
 
 ### Development
-- Add new custom files (those not currently being handled via exsiting Grunt tasks such a a favicon), to the Grunt Copy task `gruntfile.js > copy`
+- Add new custom files (those not currently being handled via exsiting Grunt tasks eg: `favicon.ico`), to the Grunt Copy task `gruntfile.js > copy`
 
 ### Deploy
 1. Ensure this setting is enabled on GitHub repo on the default `gh-pages` branch
