@@ -1,4 +1,4 @@
-# simple-boilerplate
+# Simple Boilerplate
 Bare bones Grunt run boilerplate for rapid prototyping
 
 ### About
