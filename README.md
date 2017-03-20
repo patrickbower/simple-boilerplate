@@ -6,16 +6,18 @@ This is not very opionated but includes a few ideas to get started on small proj
 
 - Source files (found in the `src`), generate **All** Destination files (created in the `build`)
 - Intended modular approuch for HTML, CSS and JS
-- Assets compiled to single files
+- Styles and scripts compiled to single files
 - Deploy to GitHub Pages command
 
 ### Standards
-- Nested HTML includes
-- SASS for styling
-- ES6 transpiled to 2015 JavaScript
-- Image compression
-- jQuery inclueded (commeneted out)
-- Bootstrap v3 inclueded (commeneted out)
+- NPM managed
+- Grunt run tasks inclulde:
+  - Nested HTML includes
+  - SASS for styling
+  - ES6 transpiled to 2015 JavaScript
+  - Image compression
+  - jQuery inclueded (commeneted out)
+  - Bootstrap v3 inclueded (commeneted out)
 
 ### Setup
 1. Change project name in the package.json file
