@@ -44,7 +44,7 @@ module.exports = function(grunt) {
       main: {
         expand: true,
         cwd: './src',
-        src: ['vids/*', 'manifest.json'],
+        src: ['fonts/*', 'favicon.ico'],
         dest: './build'
       }
     },
@@ -88,7 +88,7 @@ module.exports = function(grunt) {
     uglify: {
       my_target: {
         files: {
-          'build/vf-retail-demo.js': 'build/vf-retail-demo.js'
+          'build/<%= pkg.name %>.js': 'build/<%= pkg.name %>.js'
         }
       }
     }

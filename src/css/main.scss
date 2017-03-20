@@ -1,20 +1,18 @@
-// libs
+/*
+ * npm managed styles
+ */
+
+// bootstrap - entire v3
 @import "../../node_modules/bootstrap-sass/assets/stylesheets/_bootstrap";
-@import "../../node_modules/bootstrap-sass/assets/stylesheets/bootstrap/_variables";
-@import "../../node_modules/bootstrap-sass/assets/stylesheets/bootstrap/_mixins";
-@import "../../node_modules/bootstrap-sass/assets/stylesheets/bootstrap/_normalize";
-@import "../../node_modules/bootstrap-sass/assets/stylesheets/bootstrap/_grid";
-@import "../../node_modules/bootstrap-sass/assets/stylesheets/bootstrap/_type";
-@import "../../node_modules/bootstrap-sass/assets/stylesheets/bootstrap/_scaffolding";
 
-// @import "../../node_modules/animate.css/animate";
+// bootstrap - basics v3
+// @import "../../node_modules/bootstrap-sass/assets/stylesheets/bootstrap/_variables";
+// @import "../../node_modules/bootstrap-sass/assets/stylesheets/bootstrap/_mixins";
+// @import "../../node_modules/bootstrap-sass/assets/stylesheets/bootstrap/_normalize";
+// @import "../../node_modules/bootstrap-sass/assets/stylesheets/bootstrap/_grid";
+// @import "../../node_modules/bootstrap-sass/assets/stylesheets/bootstrap/_type";
+// @import "../../node_modules/bootstrap-sass/assets/stylesheets/bootstrap/_scaffolding";
 
-// global
-@import './colours';
-@import './spacing';
-@import './imgs';
-@import './box-sizing';
-@import './typography';
-
-// mods
-@import './logo';
+/*
+ * Custom
+ */
